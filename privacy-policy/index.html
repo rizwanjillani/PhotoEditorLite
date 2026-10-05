@@ -1,206 +1,210 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Privacy Policy - PhotoEditorLite</title>
+```
+<title>Privacy Policy - PhotoEditorLite</title>
 
-    <meta name="description"
-          content="Privacy Policy for PhotoEditorLite - Lightweight Photo Editor">
+<meta name="description"
+      content="Privacy Policy for PhotoEditorLite - Lightweight Photo Editor">
 
-    <style>
-        :root {
-            --primary: #2563eb;
-            --primary-dark: #1d4ed8;
-            --text: #1f2937;
-            --muted: #6b7280;
-            --background: #f8fafc;
-            --card: #ffffff;
-            --border: #e5e7eb;
-        }
+<style>
+    :root {
+        --primary: #2563eb;
+        --primary-dark: #1d4ed8;
+        --text: #1f2937;
+        --muted: #6b7280;
+        --background: #f8fafc;
+        --card: #ffffff;
+        --border: #e5e7eb;
+    }
 
-        * {
-            box-sizing: border-box;
-        }
+    * {
+        box-sizing: border-box;
+    }
 
-        html {
-            scroll-behavior: smooth;
-        }
+    html {
+        scroll-behavior: smooth;
+    }
 
-        body {
-            margin: 0;
-            padding: 0;
-            font-family:
-                -apple-system,
-                BlinkMacSystemFont,
-                "Segoe UI",
-                Roboto,
-                Helvetica,
-                Arial,
-                sans-serif;
-            color: var(--text);
-            background: var(--background);
-            line-height: 1.7;
-        }
+    body {
+        margin: 0;
+        padding: 0;
+        font-family:
+            -apple-system,
+            BlinkMacSystemFont,
+            "Segoe UI",
+            Roboto,
+            Helvetica,
+            Arial,
+            sans-serif;
+        color: var(--text);
+        background: var(--background);
+        line-height: 1.7;
+    }
 
+    .header {
+        background: linear-gradient(
+            135deg,
+            var(--primary),
+            var(--primary-dark)
+        );
+        color: white;
+        padding: 55px 20px;
+        text-align: center;
+    }
+
+    .header h1 {
+        margin: 0 0 8px;
+        font-size: 42px;
+        font-weight: 750;
+        letter-spacing: -1px;
+    }
+
+    .header p {
+        margin: 0;
+        font-size: 17px;
+        opacity: 0.92;
+    }
+
+    .container {
+        width: min(900px, calc(100% - 32px));
+        margin: 35px auto 60px;
+    }
+
+    .card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        padding: 28px;
+        margin-bottom: 18px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+    }
+
+    h2 {
+        margin-top: 0;
+        margin-bottom: 12px;
+        color: #111827;
+        font-size: 24px;
+    }
+
+    h3 {
+        color: #111827;
+        font-size: 18px;
+        margin-top: 22px;
+        margin-bottom: 8px;
+    }
+
+    p {
+        margin: 10px 0;
+    }
+
+    ul {
+        padding-left: 24px;
+    }
+
+    li {
+        margin-bottom: 8px;
+    }
+
+    .updated {
+        color: var(--muted);
+        font-size: 14px;
+        margin-top: 6px;
+    }
+
+    .highlight {
+        background: #eff6ff;
+        border-left: 4px solid var(--primary);
+        padding: 15px 18px;
+        border-radius: 8px;
+        margin: 18px 0;
+    }
+
+    .permission-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 18px;
+    }
+
+    .permission-table th,
+    .permission-table td {
+        border: 1px solid var(--border);
+        padding: 14px;
+        text-align: left;
+        vertical-align: top;
+    }
+
+    .permission-table th {
+        background: #f1f5f9;
+        color: #111827;
+    }
+
+    .contact {
+        text-align: center;
+    }
+
+    .contact a {
+        color: var(--primary);
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .contact a:hover {
+        text-decoration: underline;
+    }
+
+    footer {
+        text-align: center;
+        color: var(--muted);
+        font-size: 14px;
+        padding: 10px 20px 35px;
+    }
+
+    code {
+        background: #f1f5f9;
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-size: 0.92em;
+    }
+
+    @media (max-width: 650px) {
         .header {
-            background: linear-gradient(
-                135deg,
-                var(--primary),
-                var(--primary-dark)
-            );
-            color: white;
-            padding: 55px 20px;
-            text-align: center;
+            padding: 40px 18px;
         }
 
         .header h1 {
-            margin: 0 0 8px;
-            font-size: 42px;
-            font-weight: 750;
-            letter-spacing: -1px;
-        }
-
-        .header p {
-            margin: 0;
-            font-size: 17px;
-            opacity: 0.92;
+            font-size: 34px;
         }
 
         .container {
-            width: min(900px, calc(100% - 32px));
-            margin: 35px auto 60px;
+            width: min(100% - 20px, 900px);
+            margin-top: 20px;
         }
 
         .card {
-            background: var(--card);
-            border: 1px solid var(--border);
-            border-radius: 14px;
-            padding: 28px;
-            margin-bottom: 18px;
-            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+            padding: 21px;
         }
 
         h2 {
-            margin-top: 0;
-            margin-bottom: 12px;
-            color: #111827;
-            font-size: 24px;
-        }
-
-        h3 {
-            color: #111827;
-            font-size: 18px;
-            margin-top: 22px;
-            margin-bottom: 8px;
-        }
-
-        p {
-            margin: 10px 0;
-        }
-
-        ul {
-            padding-left: 24px;
-        }
-
-        li {
-            margin-bottom: 8px;
-        }
-
-        .updated {
-            color: var(--muted);
-            font-size: 14px;
-            margin-top: 6px;
-        }
-
-        .highlight {
-            background: #eff6ff;
-            border-left: 4px solid var(--primary);
-            padding: 15px 18px;
-            border-radius: 8px;
-            margin: 18px 0;
+            font-size: 21px;
         }
 
         .permission-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 18px;
+            font-size: 14px;
         }
 
         .permission-table th,
         .permission-table td {
-            border: 1px solid var(--border);
-            padding: 14px;
-            text-align: left;
-            vertical-align: top;
+            padding: 10px;
         }
+    }
+</style>
+```
 
-        .permission-table th {
-            background: #f1f5f9;
-            color: #111827;
-        }
-
-        .contact {
-            text-align: center;
-        }
-
-        .contact a {
-            color: var(--primary);
-            text-decoration: none;
-            font-weight: 600;
-        }
-
-        .contact a:hover {
-            text-decoration: underline;
-        }
-
-        footer {
-            text-align: center;
-            color: var(--muted);
-            font-size: 14px;
-            padding: 10px 20px 35px;
-        }
-
-        code {
-            background: #f1f5f9;
-            padding: 2px 6px;
-            border-radius: 4px;
-            font-size: 0.92em;
-        }
-
-        @media (max-width: 650px) {
-            .header {
-                padding: 40px 18px;
-            }
-
-            .header h1 {
-                font-size: 34px;
-            }
-
-            .container {
-                width: min(100% - 20px, 900px);
-                margin-top: 20px;
-            }
-
-            .card {
-                padding: 21px;
-            }
-
-            h2 {
-                font-size: 21px;
-            }
-
-            .permission-table {
-                font-size: 14px;
-            }
-
-            .permission-table th,
-            .permission-table td {
-                padding: 10px;
-            }
-        }
-    </style>
 </head>
 
 <body>
@@ -212,360 +216,445 @@
 
 <main class="container">
 
-    <section class="card">
-        <h2>Privacy Policy</h2>
-
-        <p>
-            PhotoEditorLite ("the App") is developed and published by
-            <strong>Rizwan Jillani</strong>
-        </p>
-
-        <p>
-            This Privacy Policy explains what information PhotoEditorLite
-            handles and how that information is used.
-        </p>
-
-        <p class="updated">
-            <strong>Last updated:</strong> October 1, 2026
-        </p>
-    </section>
-
-
-    <section class="card">
-        <h2>1. Photos and Images</h2>
-
-        <p>
-            PhotoEditorLite allows you to edit photos that you choose from
-            your device's gallery or capture using the device camera.
-        </p>
-
-        <p>
-            Photo editing is performed on your device. Features such as
-            background removal, collage creation, image compression, and
-            other editing effects are processed locally.
-        </p>
-
-        <p>
-            Background removal uses on-device machine learning through
-            Google ML Kit. Your photos are not uploaded to servers operated
-            by PhotoEditorLite, and I do not have access to the photos
-            you edit.
-        </p>
-
-        <div class="highlight">
-            <strong>Your photos stay on your device.</strong>
-            PhotoEditorLite does not upload your photos to its own servers.
-        </div>
-
-        <p>
-            The first time you use background removal, your device may
-            download a small machine-learning model from Google Play
-            services over the network. That download is handled by Google
-            and is not a PhotoEditorLite server upload.
-        </p>
-
-        <p>
-            Edited photos are saved to your device's Photos/Gallery storage,
-            including the application's designated storage location such as
-            <code>Pictures/PhotoEditorLite</code>, or can be shared with
-            another application that you choose.
-        </p>
-
-        <p>
-            PhotoEditorLite does not receive a copy of photos that you
-            save or share.
-        </p>
-    </section>
-
-
-    <section class="card">
-        <h2>2. Permissions We Request</h2>
-
-        <p>
-            PhotoEditorLite requests only the permissions necessary to
-            provide its features.
-        </p>
-
-        <table class="permission-table">
-            <thead>
-                <tr>
-                    <th>Permission</th>
-                    <th>Why It Is Used</th>
-                </tr>
-            </thead>
-
-            <tbody>
-                <tr>
-                    <td><strong>Camera</strong></td>
-                    <td>
-                        Allows you to take a photo directly inside
-                        PhotoEditorLite for editing.
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <strong>Photos / Media</strong><br>
-                        <code>READ_MEDIA_IMAGES</code>,
-                        <code>READ_MEDIA_VISUAL_USER_SELECTED</code>
-                        on Android 14+,
-                        and <code>READ_EXTERNAL_STORAGE</code>
-                        on older supported Android versions
-                    </td>
-                    <td>
-                        Allows you to select existing photos from your
-                        device for editing, including photos selected
-                        through the Home screen and Collage features.
-                        On Android versions supporting limited photo
-                        access, if you choose "Select photos" instead of
-                        allowing access to all photos, the App only has
-                        access to the photos you specifically select.
-                    </td>
-                </tr>
-
-                <tr>
-                    <td><strong>Internet / Network State</strong></td>
-                    <td>
-                        Used to display advertisements, process
-                        in-app purchases, and allow the on-device
-                        background-removal model to be downloaded when
-                        required.
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-
-
-    <section class="card">
-        <h2>3. Advertising</h2>
-
-        <p>
-            PhotoEditorLite may display advertisements provided by
-            <strong>Google AdMob</strong>.
-        </p>
-
-        <p>
-            Google AdMob and its advertising partners may process
-            information such as device identifiers, including the
-            advertising ID, approximate location, device information,
-            and app usage information for purposes such as serving,
-            measuring, and improving advertisements.
-        </p>
-
-        <p>
-            Depending on your location and applicable requirements,
-            advertisements may be personalized based on your consent
-            and advertising settings.
-        </p>
-
-        <p>
-            You can manage or reset your advertising preferences through
-            your Android or Google account settings where available.
-        </p>
-
-        <h3>Google Privacy Policy</h3>
-
-        <p>
-            For more information about Google's privacy practices:
-        </p>
-
-        <p>
-            <a
-                href="https://policies.google.com/privacy"
-                target="_blank"
-                rel="noopener noreferrer">
-                Google Privacy Policy
-            </a>
-        </p>
-
-        <p>
-            Information about Google's advertising settings:
-        </p>
-
-        <p>
-            <a
-                href="https://support.google.com/googleplay/answer/6048248"
-                target="_blank"
-                rel="noopener noreferrer">
-                Google Ads Settings
-            </a>
-        </p>
-    </section>
-
-
-    <section class="card">
-        <h2>4. In-App Purchases</h2>
-
-        <p>
-            Premium upgrades are purchased through
-            <strong>Google Play Billing</strong>.
-        </p>
-
-        <p>
-            I do not see or store your credit card, debit card, or other
-            payment details. Payment information is handled by Google Play.
-        </p>
-
-        <p>
-            PhotoEditorLite may receive confirmation that a purchase was
-            completed, which is used to unlock Premium features in the App.
-        </p>
-    </section>
-
-
-    <section class="card">
-        <h2>5. Data I Do Not Collect</h2>
-
-        <p>
-            PhotoEditorLite does not require account creation or login.
-        </p>
-
-        <p>
-            I do not directly collect or store:
-        </p>
-
-        <ul>
-            <li>Your name</li>
-            <li>Your email address</li>
-            <li>Your contact list</li>
-            <li>Your original photos</li>
-            <li>Your edited photos</li>
-            <li>Your camera images</li>
-        </ul>
-
-        <p>
-            I do not sell personal data.
-        </p>
-    </section>
-
-
-    <section class="card">
-        <h2>6. Children's Privacy</h2>
-
-        <p>
-            PhotoEditorLite is not directed at children under the age of 13,
-            and I do not knowingly collect personal information from
-            children through a server-operated service.
-        </p>
-
-        <p>
-            If you believe that a child has provided personal information
-            through the App, please contact me at
-            <strong>rizwanjillani2015@gmail.com</strong>.
-        </p>
-    </section>
-
-
-    <section class="card">
-        <h2>7. Data Retention</h2>
-
-        <p>
-            Because photo editing happens on-device and I do not receive
-            your photos, I do not retain your photos on my servers.
-        </p>
-
-        <p>
-            Photos saved to your device remain under your control and can
-            be deleted using your device's Photos/Gallery or file-management
-            features.
-        </p>
-
-        <p>
-            Advertising and billing-related information may be retained
-            by Google according to Google's own policies and applicable
-            requirements.
-        </p>
-    </section>
-
-
-    <section class="card">
-        <h2>8. Data Security</h2>
-
-        <p>
-            PhotoEditorLite is designed to process photos locally on your
-            device rather than uploading them to my servers.
-        </p>
-
-        <p>
-            However, no electronic storage or transmission method can be
-            guaranteed to be completely secure. You are responsible for
-            protecting access to your device and the files stored on it.
-        </p>
-    </section>
-
-
-    <section class="card">
-        <h2>9. Third-Party Services</h2>
-
-        <p>
-            PhotoEditorLite may use the following third-party services
-            to provide its functionality:
-        </p>
-
-        <ul>
-            <li>
-                <strong>Google AdMob</strong> — advertising
-            </li>
-            <li>
-                <strong>Google Play Billing</strong> — in-app purchases
-            </li>
-            <li>
-                <strong>Google ML Kit</strong> — on-device machine learning
-            </li>
-            <li>
-                <strong>Google Play services</strong> — delivery of certain
-                machine-learning models where applicable
-            </li>
-        </ul>
-
-        <p>
-            These services may process information according to their own
-            privacy policies and terms.
-        </p>
-    </section>
-
-
-    <section class="card">
-        <h2>10. Changes to This Privacy Policy</h2>
-
-        <p>
-            I may update this Privacy Policy from time to time to reflect
-            changes to PhotoEditorLite, its features, third-party services,
-            or applicable legal requirements.
-        </p>
-
-        <p>
-            When changes are made, the
-            <strong>"Last updated"</strong> date at the top of this page
-            will be updated.
-        </p>
-
-        <p>
-            Where required, significant changes may also be communicated
-            through the App or Google Play Store listing.
-        </p>
-    </section>
-
-
-    <section class="card contact">
-        <h2>11. Contact</h2>
-
-        <p>
-            If you have questions, concerns, or requests regarding this
-            Privacy Policy or PhotoEditorLite, please contact:
-        </p>
-
-        <p>
-            <strong>Rizwan Jillani</strong>
-        </p>
-
-        <p>
-            <a href="mailto:rizwanjillani2015@gmail.com">
-                rizwanjillani2015@gmail.com
-            </a>
-        </p>
-    </section>
+```
+<section class="card">
+    <h2>Privacy Policy</h2>
+
+    <p>
+        PhotoEditorLite ("the App") is developed and published by
+        <strong>Rizwan Jillani</strong>.
+    </p>
+
+    <p>
+        This Privacy Policy explains what information PhotoEditorLite
+        handles and how that information is used.
+    </p>
+
+    <p class="updated">
+        <strong>Last updated:</strong> October 6, 2026
+    </p>
+</section>
+
+
+<section class="card">
+    <h2>1. Photos and Images</h2>
+
+    <p>
+        PhotoEditorLite allows you to edit photos that you choose from
+        your device's gallery or capture using the device camera.
+    </p>
+
+    <p>
+        Photo editing is performed on your device. Features such as
+        background removal, collage creation, image compression, and
+        other editing effects are processed locally.
+    </p>
+
+    <p>
+        Background removal uses on-device machine learning through
+        Google ML Kit. Your photos are not uploaded to servers operated
+        by PhotoEditorLite, and I do not have access to the photos
+        you edit.
+    </p>
+
+    <div class="highlight">
+        <strong>Your photos stay on your device.</strong>
+        PhotoEditorLite does not upload your photos to its own servers.
+    </div>
+
+    <p>
+        The first time you use background removal, your device may
+        download a small machine-learning model from Google Play
+        services over the network. That download is handled by Google
+        and is not a PhotoEditorLite server upload.
+    </p>
+
+    <p>
+        Edited photos are saved to your device's Photos/Gallery storage,
+        including the application's designated storage location such as
+        <code>Pictures/PhotoEditorLite</code>, or can be shared with
+        another application that you choose.
+    </p>
+
+    <p>
+        PhotoEditorLite does not receive a copy of photos that you
+        save or share.
+    </p>
+</section>
+
+
+<section class="card">
+    <h2>2. Stickers and WhatsApp Sticker Packs</h2>
+
+    <p>
+        When you turn a photo into a sticker, PhotoEditorLite stores
+        the sticker image in the App's private storage on your device.
+    </p>
+
+    <p>
+        You can group stickers into packs, rename packs, and remove
+        stickers or packs. Sticker images and pack information are
+        stored locally on your device.
+    </p>
+
+    <p>
+        You can also add a sticker pack to WhatsApp. When you choose
+        this option, PhotoEditorLite makes the pack's stickers and tray
+        icon available to WhatsApp on your device through a content
+        provider intended for WhatsApp.
+    </p>
+
+    <p>
+        The sticker images and sticker-pack data are not uploaded to
+        PhotoEditorLite servers or sent to PhotoEditorLite for storage.
+    </p>
+
+    <p>
+        Removing a sticker or sticker pack from PhotoEditorLite deletes
+        the corresponding locally stored data from the App's storage.
+    </p>
+
+    <div class="highlight">
+        <strong>Sticker data is processed locally.</strong>
+        PhotoEditorLite does not upload your stickers or sticker packs
+        to its own servers.
+    </div>
+</section>
+
+
+<section class="card">
+    <h2>3. Slideshow Videos and Music</h2>
+
+    <p>
+        PhotoEditorLite allows you to create slideshow videos by
+        combining photos that you choose on your device.
+    </p>
+
+    <p>
+        The slideshow video is generated locally on your device as an
+        MP4 video. If you add background music, the music file is a
+        file that you select from your device.
+    </p>
+
+    <p>
+        The finished slideshow video is saved to your device's
+        <code>Movies/PhotoEditorLite</code> folder or can be shared
+        with another application that you choose.
+    </p>
+
+    <p>
+        PhotoEditorLite does not upload the selected photos, music files,
+        or finished slideshow videos to its own servers.
+    </p>
+
+    <div class="highlight">
+        <strong>Slideshow processing happens on your device.</strong>
+        Your photos, music files, and generated videos are not uploaded
+        to PhotoEditorLite servers.
+    </div>
+</section>
+
+
+<section class="card">
+    <h2>4. Permissions We Request</h2>
+
+    <p>
+        PhotoEditorLite requests only the permissions necessary to
+        provide its features.
+    </p>
+
+    <table class="permission-table">
+        <thead>
+            <tr>
+                <th>Permission</th>
+                <th>Why It Is Used</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td><strong>Camera</strong></td>
+                <td>
+                    Allows you to take a photo directly inside
+                    PhotoEditorLite for editing.
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <strong>Photos / Media</strong><br>
+                    <code>READ_MEDIA_IMAGES</code>,
+                    <code>READ_MEDIA_VISUAL_USER_SELECTED</code>
+                    on Android 14+,
+                    and <code>READ_EXTERNAL_STORAGE</code>
+                    on older supported Android versions
+                </td>
+                <td>
+                    Allows you to select existing photos from your
+                    device for editing, including photos selected
+                    through the Home screen, Collage, Sticker, and
+                    Slideshow features.
+                    On Android versions supporting limited photo
+                    access, if you choose "Select photos" instead of
+                    allowing access to all photos, the App only has
+                    access to the photos you specifically select.
+                </td>
+            </tr>
+
+            <tr>
+                <td><strong>Internet / Network State</strong></td>
+                <td>
+                    Used to display advertisements, process
+                    in-app purchases, and allow the on-device
+                    background-removal model to be downloaded when
+                    required.
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+
+<section class="card">
+    <h2>5. Advertising</h2>
+
+    <p>
+        PhotoEditorLite may display advertisements provided by
+        <strong>Google AdMob</strong>.
+    </p>
+
+    <p>
+        Google AdMob and its advertising partners may process
+        information such as device identifiers, including the
+        advertising ID, approximate location, device information,
+        and app usage information for purposes such as serving,
+        measuring, and improving advertisements.
+    </p>
+
+    <p>
+        Depending on your location and applicable requirements,
+        advertisements may be personalized based on your consent
+        and advertising settings.
+    </p>
+
+    <p>
+        You can manage or reset your advertising preferences through
+        your Android or Google account settings where available.
+    </p>
+
+    <h3>Google Privacy Policy</h3>
+
+    <p>
+        For more information about Google's privacy practices:
+    </p>
+
+    <p>
+        <a
+            href="https://policies.google.com/privacy"
+            target="_blank"
+            rel="noopener noreferrer">
+            Google Privacy Policy
+        </a>
+    </p>
+
+    <p>
+        Information about Google's advertising settings:
+    </p>
+
+    <p>
+        <a
+            href="https://support.google.com/googleplay/answer/6048248"
+            target="_blank"
+            rel="noopener noreferrer">
+            Google Ads Settings
+        </a>
+    </p>
+</section>
+
+
+<section class="card">
+    <h2>6. In-App Purchases</h2>
+
+    <p>
+        Premium upgrades are purchased through
+        <strong>Google Play Billing</strong>.
+    </p>
+
+    <p>
+        I do not see or store your credit card, debit card, or other
+        payment details. Payment information is handled by Google Play.
+    </p>
+
+    <p>
+        PhotoEditorLite may receive confirmation that a purchase was
+        completed, which is used to unlock Premium features in the App.
+    </p>
+</section>
+
+
+<section class="card">
+    <h2>7. Data I Do Not Collect</h2>
+
+    <p>
+        PhotoEditorLite does not require account creation or login.
+    </p>
+
+    <p>
+        I do not directly collect or store:
+    </p>
+
+    <ul>
+        <li>Your name</li>
+        <li>Your email address</li>
+        <li>Your contact list</li>
+        <li>Your original photos</li>
+        <li>Your edited photos</li>
+        <li>Your camera images</li>
+        <li>Your sticker images or sticker packs</li>
+        <li>Your slideshow videos</li>
+        <li>Your selected music files</li>
+    </ul>
+
+    <p>
+        I do not sell personal data.
+    </p>
+</section>
+
+
+<section class="card">
+    <h2>8. Children's Privacy</h2>
+
+    <p>
+        PhotoEditorLite is not directed at children under the age of 13,
+        and I do not knowingly collect personal information from
+        children through a server-operated service.
+    </p>
+
+    <p>
+        If you believe that a child has provided personal information
+        through the App, please contact me at
+        <strong>rizwanjillani2015@gmail.com</strong>.
+    </p>
+</section>
+
+
+<section class="card">
+    <h2>9. Data Retention</h2>
+
+    <p>
+        Because photo editing, sticker creation, and slideshow
+        processing happen on-device and I do not receive your photos,
+        stickers, videos, or music files, I do not retain these files
+        on my servers.
+    </p>
+
+    <p>
+        Photos, stickers, videos, and other files saved to your device
+        remain under your control and can be deleted using your device's
+        Photos/Gallery or file-management features.
+    </p>
+
+    <p>
+        Advertising and billing-related information may be retained
+        by Google according to Google's own policies and applicable
+        requirements.
+    </p>
+</section>
+
+
+<section class="card">
+    <h2>10. Data Security</h2>
+
+    <p>
+        PhotoEditorLite is designed to process photos, stickers,
+        and slideshow content locally on your device rather than
+        uploading them to my servers.
+    </p>
+
+    <p>
+        However, no electronic storage or transmission method can be
+        guaranteed to be completely secure. You are responsible for
+        protecting access to your device and the files stored on it.
+    </p>
+</section>
+
+
+<section class="card">
+    <h2>11. Third-Party Services</h2>
+
+    <p>
+        PhotoEditorLite may use the following third-party services
+        to provide its functionality:
+    </p>
+
+    <ul>
+        <li>
+            <strong>Google AdMob</strong> — advertising
+        </li>
+        <li>
+            <strong>Google Play Billing</strong> — in-app purchases
+        </li>
+        <li>
+            <strong>Google ML Kit</strong> — on-device machine learning
+        </li>
+        <li>
+            <strong>Google Play services</strong> — delivery of certain
+            machine-learning models where applicable
+        </li>
+        <li>
+            <strong>WhatsApp</strong> — receives access to sticker packs
+            when you explicitly choose to add a pack to WhatsApp
+        </li>
+    </ul>
+
+    <p>
+        These services may process information according to their own
+        privacy policies and terms.
+    </p>
+</section>
+
+
+<section class="card">
+    <h2>12. Changes to This Privacy Policy</h2>
+
+    <p>
+        I may update this Privacy Policy from time to time to reflect
+        changes to PhotoEditorLite, its features, third-party services,
+        or applicable legal requirements.
+    </p>
+
+    <p>
+        When changes are made, the
+        <strong>"Last updated"</strong> date at the top of this page
+        will be updated.
+    </p>
+
+    <p>
+        Where required, significant changes may also be communicated
+        through the App or Google Play Store listing.
+    </p>
+</section>
+
+
+<section class="card contact">
+    <h2>13. Contact</h2>
+
+    <p>
+        If you have questions, concerns, or requests regarding this
+        Privacy Policy or PhotoEditorLite, please contact:
+    </p>
+
+    <p>
+        <strong>Rizwan Jillani</strong>
+    </p>
+
+    <p>
+        <a href="mailto:rizwanjillani2015@gmail.com">
+            rizwanjillani2015@gmail.com
+        </a>
+    </p>
+</section>
+```
 
 </main>
 
